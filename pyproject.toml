@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mival"
+version = "0.1.0"
+description = ""
+authors = ["musel25 <muselemmanuel@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+mlxtend = "^0.23.4"
+ipykernel = "^6.29.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
