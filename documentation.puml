@@ -1,0 +1,7 @@
+@startuml
+actor User
+User -> Website : Visit homepage
+Website -> Database : Query user data
+Database --> Website : Send user info
+Website --> User : Display personalized homepage
+@enduml
